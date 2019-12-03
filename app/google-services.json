@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "315105090503",
+    "firebase_url": "https://ml-kit-da016.firebaseio.com",
+    "project_id": "ml-kit-da016",
+    "storage_bucket": "ml-kit-da016.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315105090503:android:76daec9f8aa6c1e56717e2",
+        "android_client_info": {
+          "package_name": "com.roaim.mlkit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "315105090503-n6d8v318a628o722lf5tpdnk2q8dfno9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.roaim.mlkit",
+            "certificate_hash": "d3d0979a9c8a33f0f877503c608cf7df9cc0e551"
+          }
+        },
+        {
+          "client_id": "315105090503-8uekk4tkqiojl5sa3m0c1htsqvpnmg70.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnPHu1gZD5PCjwNWk_vtX5wGagLKCzft8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "315105090503-8uekk4tkqiojl5sa3m0c1htsqvpnmg70.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
