@@ -7,7 +7,6 @@ import android.graphics.Bitmap
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
-import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.drawToBitmap
 import com.google.android.material.snackbar.Snackbar
@@ -17,17 +16,16 @@ import com.google.firebase.ml.vision.text.FirebaseVisionText
 import com.theartofdev.edmodo.cropper.CropImage
 import com.theartofdev.edmodo.cropper.CropImageView
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.content_main.*
 
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var iv: ImageView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         setSupportActionBar(toolbar)
-        iv = findViewById(R.id.iv)
 
         fab.setOnClickListener { view ->
             // start picker to get image for cropping and then use the image in cropping activity
